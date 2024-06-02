@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reservations</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Create a New Reservation</h2>
+        <form id="reservation-form">
+            <label for="car-id">Car ID:</label>
+            <input type="text" id="car-id" name="car-id" required>
+            <label for="extras">Extras:</label>
+            <input type="text" id="extras" name="extras">
+            <button type="submit">Reserve</button>
+        </form>
+        <h2>Your Reservations</h2>
+        <ul id="reservations-list"></ul>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
